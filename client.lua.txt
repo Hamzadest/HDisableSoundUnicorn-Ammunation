@@ -1,0 +1,19 @@
+---Créateur Hamza#8602
+---Désactive les sons / musiques dans l'unicorn / Disable music and sound in unicorn
+---Merci de me créditer par respect de mon travail <3/ Thanks and credit my name thanks <3
+
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(0)
+        if NetworkIsSessionStarted() then
+            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_01_STAGE', false)
+            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM', false)
+            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM', false)
+            return
+        end
+    end
+end)
+
+-- Beta Disable all audio ambiant sound Ammunation and all ambiant sound / Désactive son Ammunation + son ambiant
+
+--StartAudioScene('CHARACTER_CHANGE_IN_SKY_SCENE') BETA ENCORE PAS TEST
