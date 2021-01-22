@@ -1,6 +1,8 @@
----Créateur Hamza#8602
+--[[
+Créateur Hamza#8602
 ---Désactive les sons / musiques dans l'unicorn / Disable music and sound in unicorn
----Merci de me créditer par respect de mon travail <3/ Thanks and credit my name thanks <3
+---Merci de me créditer par respect de mon travail <3/ Thanks and credit my name thanks <3.
+--]]
 
 Citizen.CreateThread(function()
     while true do
